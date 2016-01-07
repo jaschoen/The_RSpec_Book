@@ -38,5 +38,5 @@ Then /^I should see "([^"]*)"$/ do |message|
 end
 
 Then /^the mark should be "([^"]*)"$/ do |mark|
-expect(@messenger.string.split("\n")).to include(mark)
+  expect(@messenger.string.split("\n")).to include(mark)
 end
